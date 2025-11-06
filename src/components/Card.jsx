@@ -6,15 +6,15 @@ import PropTypes from 'prop-types';
  */
 export const Card = ({ title, content, variant = 'default' }) => {
   const variantClasses = {
-    default: 'bg-white border-gray-200',
-    primary: 'bg-blue-50 border-blue-300',
-    success: 'bg-green-50 border-green-300',
+    default: 'bg-monotone-100 border-monotone-300',
+    primary: 'bg-blue-100 border-blue-300',
+    success: 'bg-beige-100 border-beige-300',
   };
 
   return (
     <div className={`border rounded-lg shadow-md p-6 ${variantClasses[variant]}`}>
-      <h3 className="text-xl font-bold mb-2 text-gray-800">{title}</h3>
-      <p className="text-gray-600">{content}</p>
+      <h3 className="text-xl font-bold mb-2 text-monotone-800">{title}</h3>
+      <p className="text-monotone-600">{content}</p>
     </div>
   );
 };
