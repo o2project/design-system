@@ -25,7 +25,7 @@ Start the Storybook development server:
 npm run storybook
 ```
 
-This will start Storybook at [http://localhost:6006](http://localhost:6006)
+This will start Storybook at [http://localhost:15021](http://localhost:15021)
 
 ### Build
 
