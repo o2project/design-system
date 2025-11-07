@@ -7,6 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
+        // Base color palette
         blue: {
           100: '#0086ed',
           200: '#0076d1',
@@ -46,6 +47,19 @@ export default {
           600: '#636363',
           700: '#474747',
           800: '#1a1a1a',
+        },
+        // Semantic color tokens
+        primary: {
+          main: '#003760',      // blue-600
+          sub: '#858475',       // beige-500
+          accent: '#d4cd00',    // yellow-200
+        },
+        neutral: {
+          background: '#fafafa',  // monotone-100
+          'text-main': '#1a1a1a', // monotone-800
+          'text-sub': '#636363',  // monotone-600
+          link: '#0076d1',        // blue-200
+          border: '#9e9e9e',      // monotone-400
         },
       },
     },
