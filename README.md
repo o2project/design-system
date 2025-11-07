@@ -47,21 +47,28 @@ The static files will be generated in the `storybook-static/` directory.
 
 ## 📦 Component Structure
 
-Components are organized in the `src/components/` directory with their corresponding stories:
+Components are organized in the `src/components/` directory with their stories collocated in the same directory:
 
 ```
 src/
 └── components/
-    ├── Card.jsx          # Component implementation
-    └── Card.stories.js   # Storybook stories
+    ├── Card/
+    │   ├── Card.jsx          # Component implementation
+    │   └── Card.stories.js   # Storybook stories
+    ├── Button/
+    │   ├── Button.jsx
+    │   ├── Button.stories.js
+    │   └── button.css
+    └── ...
 ```
 
 ## 🎯 Creating New Components
 
-1. Create your component in `src/components/YourComponent.jsx`
-2. Style it using Tailwind CSS utility classes
-3. Create a story file `src/components/YourComponent.stories.js`
-4. The component will automatically appear in Storybook
+1. Create a new directory in `src/components/` with your component name
+2. Add your component file `YourComponent.jsx` in that directory
+3. Style it using Tailwind CSS utility classes (or add a CSS file if needed)
+4. Create a story file `YourComponent.stories.js` in the same directory
+5. The component will automatically appear in Storybook
 
 ### Example Component
 
