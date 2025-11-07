@@ -10,7 +10,7 @@
     "build-storybook": "storybook build"
   },
   "keywords": [],
-  "author": "",
+  "author": "O2 Project",
   "license": "MIT",
   "dependencies": {
     "react": "19.2.0",
