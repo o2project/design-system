@@ -9,7 +9,7 @@ This design system is built with [Storybook](https://storybook.js.org/) and styl
 ### Prerequisites
 
 - Node.js (version 18 or higher recommended)
-- npm or yarn
+- npm
 
 ### Installation
 
@@ -36,14 +36,6 @@ npm run build-storybook
 ```
 
 The static files will be generated in the `storybook-static/` directory.
-
-## 🎨 Tech Stack
-
-- **Storybook**: 10.0.5 (React with Vite)
-- **React**: 19.2.0
-- **Tailwind CSS**: 4.1.16
-- **PostCSS**: 8.5.6
-- **Autoprefixer**: 10.4.21
 
 ## 📦 Component Structure
 
@@ -106,12 +98,6 @@ export const Primary = {
 
 Tailwind CSS is configured and integrated with Storybook. You can use all Tailwind utility classes in your components.
 
-### Configuration
-
-- `tailwind.config.js` - Tailwind configuration
-- `postcss.config.js` - PostCSS configuration
-- `.storybook/tailwind.css` - Tailwind imports
-
 ## 📚 Documentation
 
 Storybook automatically generates documentation for your components. Add JSDoc comments to your component props for better documentation:
@@ -140,4 +126,4 @@ export const Button = ({
 
 ## 📄 License
 
-ISC
+MIT
