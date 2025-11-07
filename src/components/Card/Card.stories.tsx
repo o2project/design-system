@@ -1,6 +1,7 @@
+import type { Meta, StoryObj } from '@storybook/react';
 import { Card } from './Card';
 
-export default {
+const meta: Meta<typeof Card> = {
   title: 'Components/Card',
   component: Card,
   parameters: {
@@ -15,7 +16,10 @@ export default {
   },
 };
 
-export const Default = {
+export default meta;
+type Story = StoryObj<typeof Card>;
+
+export const Default: Story = {
   args: {
     title: 'Default Card',
     content: 'This is a default card styled with Tailwind CSS.',
@@ -23,7 +27,7 @@ export const Default = {
   },
 };
 
-export const Primary = {
+export const Primary: Story = {
   args: {
     title: 'Primary Card',
     content: 'This is a primary card with blue styling.',
@@ -31,10 +35,10 @@ export const Primary = {
   },
 };
 
-export const Success = {
+export const Success: Story = {
   args: {
     title: 'Success Card',
-    content: 'This is a success card with green styling.',
+    content: 'This is a success card with beige styling.',
     variant: 'success',
   },
 };

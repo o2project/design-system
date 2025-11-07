@@ -1,11 +1,19 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+
+interface CardProps {
+  /** Card title */
+  title: string;
+  /** Card content */
+  content: string;
+  /** Visual variant of the card */
+  variant?: 'default' | 'primary' | 'success';
+}
 
 /**
  * A simple Card component styled with Tailwind CSS
  */
-export const Card = ({ title, content, variant = 'default' }) => {
-  const variantClasses = {
+export const Card: React.FC<CardProps> = ({ title, content, variant = 'default' }) => {
+  const variantClasses: Record<string, string> = {
     default: 'bg-monotone-100 border-monotone-300',
     primary: 'bg-blue-100 border-blue-300',
     success: 'bg-beige-100 border-beige-300',
@@ -17,10 +25,4 @@ export const Card = ({ title, content, variant = 'default' }) => {
       <p className="text-monotone-600">{content}</p>
     </div>
   );
-};
-
-Card.propTypes = {
-  title: PropTypes.string.isRequired,
-  content: PropTypes.string.isRequired,
-  variant: PropTypes.oneOf(['default', 'primary', 'success']),
 };
