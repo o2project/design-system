@@ -1,5 +1,5 @@
 {
-  "name": "design-system",
+  "name": "@o2project/design-system",
   "version": "1.0.0",
   "type": "module",
   "description": "Design system for O2 Project",
