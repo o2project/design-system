@@ -6,10 +6,10 @@
   "publishConfig": {
     "access": "public"
   },
+  "main": "main.css",
   "files": [
     "CHANGELOG.md",
-    "docs/**/*",
-    "tailwind.config.js"
+    "docs/**/*"
   ],
   "scripts": {
     "check-typescript": "tsc --noEmit",
@@ -40,7 +40,6 @@
     "@tailwindcss/postcss": "4.1.16",
     "@types/react": "19.2.2",
     "@types/react-dom": "19.2.2",
-    "autoprefixer": "10.4.21",
     "conventional-changelog-conventionalcommits": "9.1.0",
     "eslint": "9.39.1",
     "eslint-config-prettier": "10.1.8",
