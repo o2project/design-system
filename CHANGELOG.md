@@ -1,3 +1,9 @@
+## [1.0.2](https://github.com/o2project/design-system/compare/v1.0.1...v1.0.2) (2025-11-09)
+
+### 🐛 Bug Fixes
+
+* declare include files of pacakge ([b5e6460](https://github.com/o2project/design-system/commit/b5e64603ec3d24908accb1f6bf49dfa0a79b71e0))
+
 ## [1.0.1](https://github.com/o2project/design-system/compare/v1.0.0...v1.0.1) (2025-11-09)
 
 ### 🐛 Bug Fixes
