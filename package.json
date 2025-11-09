@@ -5,7 +5,8 @@
   "description": "Design system for O2 Project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "check-typescript": "tsc --noEmit",
+    "lint": "eslint '**/*.{ts,tsx}'",
     "format": "prettier --write .",
     "storybook": "storybook dev -p 15021",
     "build-storybook": "storybook build"
