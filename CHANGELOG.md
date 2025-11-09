@@ -1,3 +1,9 @@
+## [1.1.0](https://github.com/o2project/design-system/compare/v1.0.2...v1.1.0) (2025-11-09)
+
+### ✨ Features
+
+* migrate tailwind config to v4 ([1303a99](https://github.com/o2project/design-system/commit/1303a9912a7c9eaf14b29a879764c6da67b5cf83))
+
 ## [1.0.2](https://github.com/o2project/design-system/compare/v1.0.1...v1.0.2) (2025-11-09)
 
 ### 🐛 Bug Fixes
