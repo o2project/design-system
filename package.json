@@ -6,7 +6,11 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "index.js",
+  "files": [
+    "CHANGELOG.md",
+    "docs/**/*",
+    "tailwind.config.js"
+  ],
   "scripts": {
     "check-typescript": "tsc --noEmit",
     "lint": "eslint '**/*.{js,jsx,ts,tsx}'",
