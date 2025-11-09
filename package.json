@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "type": "module",
   "description": "Design system for O2 Project",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "index.js",
   "scripts": {
     "check-typescript": "tsc --noEmit",
