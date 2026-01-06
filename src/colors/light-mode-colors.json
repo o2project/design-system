@@ -1,0 +1,20 @@
+{
+  "Neutral": {
+    "Background": {
+      "$type": "color",
+      "$value": "{Monotone.MonotoneBrightest}"
+    },
+    "Text": {
+      "$type": "color",
+      "$value": "{Monotone.MonotoneDarkest}"
+    },
+    "SubText": {
+      "$type": "color",
+      "$value": "{Monotone.Monotone400}"
+    },
+    "Border": {
+      "$type": "color",
+      "$value": "{Monotone.Monotone500}"
+    }
+  }
+}

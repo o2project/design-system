@@ -1,0 +1,16 @@
+{
+  "name": "Color tokens",
+  "collections": {
+    "Global": {
+      "modes": {
+        "Value": ["global-colors.json"]
+      }
+    },
+    "Colors": {
+      "modes": {
+        "Light": ["light-mode-colors.json"],
+        "Dark": ["dark-mode-colors.json"]
+      }
+    }
+  }
+}
