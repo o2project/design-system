@@ -1,6 +1,6 @@
 # design-system
 
-Design system for O2 Project
+Design system for O2 Project.
 
 ## 🚀 Getting Started
 
@@ -41,7 +41,7 @@ The static files will be generated in the `storybook-static/` directory.
 
 Components are organized in the `src/components/` directory with their stories collocated in the same directory:
 
-```
+```text
 src/
 └── components/
     ├── Card/
@@ -106,11 +106,11 @@ Storybook automatically generates documentation for your components. Add JSDoc c
 /**
  * Primary UI component for user interaction
  */
-export const Button = ({ 
+export const Button = ({
   /** Button text */
   label,
   /** Visual style variant */
-  variant = 'primary' 
+  variant = 'primary'
 }) => {
   // ...
 };
