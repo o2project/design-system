@@ -1,3 +1,9 @@
+## [1.3.0](https://github.com/o2project/design-system/compare/v1.2.2...v1.3.0) (2026-01-06)
+
+### ✨ Features
+
+* refactor CSS variables and update package.json to include main.tailwind.css ([74a60a3](https://github.com/o2project/design-system/commit/74a60a39ae1f789d2ebda78e8107811754c4a7c7))
+
 ## [1.2.2](https://github.com/o2project/design-system/compare/v1.2.1...v1.2.2) (2026-01-06)
 
 ### 🐛 Bug Fixes
