@@ -1,3 +1,13 @@
+## [1.2.0](https://github.com/o2project/design-system/compare/v1.1.0...v1.2.0) (2026-01-06)
+
+### ✨ Features
+
+* introduce color tokens ([9ac632a](https://github.com/o2project/design-system/commit/9ac632a2822009ab8d4f51d415d93839fb75fc6b))
+
+### 📚 Some changes
+
+* update README ([f89fde9](https://github.com/o2project/design-system/commit/f89fde9c720b75eba2234a3531e544f1df945763))
+
 ## [1.1.0](https://github.com/o2project/design-system/compare/v1.0.2...v1.1.0) (2025-11-09)
 
 ### ✨ Features
