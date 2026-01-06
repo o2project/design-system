@@ -1,3 +1,9 @@
+## [1.2.2](https://github.com/o2project/design-system/compare/v1.2.1...v1.2.2) (2026-01-06)
+
+### 🐛 Bug Fixes
+
+* resolve dependency issues ([19bb2de](https://github.com/o2project/design-system/commit/19bb2deab9c8a82727c97cb578cbe58eb19946fc))
+
 ## [1.2.1](https://github.com/o2project/design-system/compare/v1.2.0...v1.2.1) (2026-01-06)
 
 ### 🐛 Bug Fixes
