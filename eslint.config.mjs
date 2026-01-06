@@ -14,11 +14,7 @@ export default defineConfig([
       'import/no-extraneous-dependencies': [
         'error',
         {
-          devDependencies: [
-            '**/.storybook/**/*.ts',
-            '**/*.config.*',
-            '**/*.test.*',
-          ],
+          devDependencies: ['**/.storybook/**/*.ts', '**/*.config.*', '**/*.test.*'],
         },
       ],
     },

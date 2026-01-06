@@ -110,7 +110,7 @@ export const Button = ({
   /** Button text */
   label,
   /** Visual style variant */
-  variant = 'primary'
+  variant = 'primary',
 }) => {
   // ...
 };

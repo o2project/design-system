@@ -19,9 +19,9 @@
 
 ### Red
 
-| Name | OKLCH | Hex |
-| ---- | ----- | --- |
-| Red50 | oklch(0.95 0.020 25) | #fceae8 |
+| Name   | OKLCH                | Hex     |
+| ------ | -------------------- | ------- |
+| Red50  | oklch(0.95 0.020 25) | #fceae8 |
 | Red100 | oklch(0.90 0.040 25) | #f8d4d1 |
 | Red200 | oklch(0.85 0.080 25) | #febab4 |
 | Red300 | oklch(0.75 0.140 25) | #fa8880 |
@@ -35,9 +35,9 @@
 
 ### Green
 
-| Name | OKLCH | Hex |
-| ---- | ----- | --- |
-| Green50 | oklch(0.95 0.010 144) | #ebf0ea |
+| Name     | OKLCH                 | Hex     |
+| -------- | --------------------- | ------- |
+| Green50  | oklch(0.95 0.010 144) | #ebf0ea |
 | Green100 | oklch(0.90 0.020 144) | #d6e2d6 |
 | Green200 | oklch(0.80 0.035 144) | #b1c4b0 |
 | Green300 | oklch(0.70 0.050 144) | #8ca78b |
@@ -51,9 +51,9 @@
 
 ### Blue
 
-| Name | OKLCH | Hex |
-| ---- | ----- | --- |
-| Blue50 | oklch(0.95 0.015 248.3) | #e7f0f8 |
+| Name    | OKLCH                   | Hex     |
+| ------- | ----------------------- | ------- |
+| Blue50  | oklch(0.95 0.015 248.3) | #e7f0f8 |
 | Blue100 | oklch(0.90 0.025 248.3) | #d2e0ee |
 | Blue200 | oklch(0.80 0.045 248.3) | #a8c1da |
 | Blue300 | oklch(0.70 0.065 248.3) | #7fa2c6 |
@@ -67,9 +67,9 @@
 
 ### Yellow
 
-| Name | OKLCH | Hex |
-| ---- | ----- | --- |
-| Yellow50 | oklch(0.97 0.040 95) | #fdf6d8 |
+| Name      | OKLCH                | Hex     |
+| --------- | -------------------- | ------- |
+| Yellow50  | oklch(0.97 0.040 95) | #fdf6d8 |
 | Yellow100 | oklch(0.95 0.079 95) | #ffefb2 |
 | Yellow200 | oklch(0.93 0.156 95) | #ffe671 |
 | Yellow300 | oklch(0.85 0.150 95) | #edcc48 |
@@ -83,16 +83,16 @@
 
 ### Monotone
 
-| Name | OKLCH | Hex |
-| ---- | ----- | --- |
+| Name              | OKLCH           | Hex     |
+| ----------------- | --------------- | ------- |
 | MonotoneBrightest | oklch(0.99 0 0) | #fcfcfc |
-| Monotone100 | oklch(0.88 0 0) | #d7d7d7 |
-| Monotone200 | oklch(0.77 0 0) | #b4b4b4 |
-| Monotone300 | oklch(0.66 0 0) | #929292 |
-| Monotone400 | oklch(0.55 0 0) | #717171 |
-| Monotone500 | oklch(0.44 0 0) | #525252 |
-| Monotone600 | oklch(0.33 0 0) | #353535 |
-| MonotoneDarkest | oklch(0.22 0 0) | #1b1b1b |
+| Monotone100       | oklch(0.88 0 0) | #d7d7d7 |
+| Monotone200       | oklch(0.77 0 0) | #b4b4b4 |
+| Monotone300       | oklch(0.66 0 0) | #929292 |
+| Monotone400       | oklch(0.55 0 0) | #717171 |
+| Monotone500       | oklch(0.44 0 0) | #525252 |
+| Monotone600       | oklch(0.33 0 0) | #353535 |
+| MonotoneDarkest   | oklch(0.22 0 0) | #1b1b1b |
 
 ### Primary colors
 
