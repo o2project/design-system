@@ -1,3 +1,13 @@
+## [1.2.1](https://github.com/o2project/design-system/compare/v1.2.0...v1.2.1) (2026-01-06)
+
+### 🐛 Bug Fixes
+
+* apply color scheme to main.css ([2174d15](https://github.com/o2project/design-system/commit/2174d157cb5635efdf45f951ba2152a8a9b799bb))
+
+### 📚 Some changes
+
+* remove old color scheme document ([73b6872](https://github.com/o2project/design-system/commit/73b68728b807d42a12f3165316390b3609cd41a8))
+
 ## [1.2.0](https://github.com/o2project/design-system/compare/v1.1.0...v1.2.0) (2026-01-06)
 
 ### ✨ Features
