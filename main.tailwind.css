@@ -1,4 +1,6 @@
-:root {
+@import 'tailwindcss';
+
+@theme {
   /* Primary colors */
   --color-primary-tks-yellow: #ffe65e;
   --color-primary-tks-green: #396039;
@@ -74,10 +76,8 @@
   --color-neutral-text: #1b1b1b;
   --color-neutral-text-sub: #717171;
   --color-neutral-border: #525252;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
+  @media (prefers-color-scheme: dark) {
     /* Dark mode semantic colors */
     --color-neutral-background: #1b1b1b;
     --color-neutral-text: #fcfcfc;

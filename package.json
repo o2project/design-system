@@ -9,7 +9,7 @@
   "main": "main.css",
   "files": [
     "CHANGELOG.md",
-    "docs/**/*"
+    "main.tailwind.css"
   ],
   "scripts": {
     "check-typescript": "tsc --noEmit",
