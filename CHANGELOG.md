@@ -1,3 +1,9 @@
+## [1.4.1](https://github.com/o2project/design-system/compare/v1.4.0...v1.4.1) (2026-01-09)
+
+### 📚 Some changes
+
+* wrap OKLCH and Hex values in inline code notation in colors README ([a88f6d3](https://github.com/o2project/design-system/commit/a88f6d38bd47c78f6e100253cdd16be95ac41293))
+
 ## [1.4.0](https://github.com/o2project/design-system/compare/v1.3.1...v1.4.0) (2026-01-09)
 
 ### ✨ Features
