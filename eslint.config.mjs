@@ -9,12 +9,17 @@ export default defineConfig([
     extends: [storybook.configs['flat/recommended']],
   },
   {
-    files: ['**/*.ts', '**/*.tsx'],
+    files: ['**/*.{ts,tsx}'],
     rules: {
       'import/no-extraneous-dependencies': [
         'error',
         {
-          devDependencies: ['**/.storybook/**/*.ts', '**/*.config.*', '**/*.test.*'],
+          devDependencies: [
+            '**/.storybook/**/*.ts',
+            '**/*.config.*',
+            '**/*.test.*',
+            'src/colors/scripts/**/*.ts',
+          ],
         },
       ],
     },
