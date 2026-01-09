@@ -1,3 +1,9 @@
+## [1.4.0](https://github.com/o2project/design-system/compare/v1.3.1...v1.4.0) (2026-01-09)
+
+### ✨ Features
+
+* add OKLCH to Hex conversion and color sync system ([cb240a2](https://github.com/o2project/design-system/commit/cb240a28e5c2b12277fa179172ce7b2340b1dd15))
+
 ## [1.3.1](https://github.com/o2project/design-system/compare/v1.3.0...v1.3.1) (2026-01-08)
 
 ### 📚 Some changes
