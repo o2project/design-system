@@ -14,12 +14,7 @@ export default defineConfig([
       'import/no-extraneous-dependencies': [
         'error',
         {
-          devDependencies: [
-            '**/.storybook/**/*.ts',
-            '**/*.config.*',
-            '**/*.test.*',
-            'src/colors/scripts/**/*.ts',
-          ],
+          devDependencies: ['**/.storybook/**/*.ts', '**/*.config.*', '**/*.test.*', 'src/colors/scripts/**/*.ts'],
         },
       ],
     },
