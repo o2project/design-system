@@ -1,20 +1,44 @@
 {
+  "Primary": {
+    "Main": {
+      "$type": "color",
+      "$value": "{Blue.Blue600}"
+    },
+    "Accent": {
+      "$type": "color",
+      "$value": "{Green.Green300}"
+    }
+  },
+  "Actions": {
+    "Like": {
+      "$type": "color",
+      "$value": "{Red.Red400}"
+    }
+  },
   "Neutral": {
     "Background": {
       "$type": "color",
-      "$value": "{Monotone.MonotoneDarkest}"
+      "$value": "{Monotone.Monotone900}"
     },
     "Text": {
       "$type": "color",
-      "$value": "{Monotone.MonotoneBrightest}"
+      "$value": "{Monotone.Monotone50}"
     },
     "SubText": {
       "$type": "color",
-      "$value": "{Monotone.Monotone200}"
+      "$value": "{Monotone.Monotone300}"
     },
     "Border": {
       "$type": "color",
-      "$value": "{Monotone.Monotone500}"
+      "$value": "{Monotone.Monotone600}"
+    },
+    "White": {
+      "$type": "color",
+      "$value": "#ffffff"
+    },
+    "Black": {
+      "$type": "color",
+      "$value": "#000000"
     }
   }
 }

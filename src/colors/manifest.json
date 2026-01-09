@@ -3,10 +3,11 @@
   "collections": {
     "Global": {
       "modes": {
-        "Value": ["global-colors.json"]
+        "Light": ["global-colors.json"],
+        "Dark": ["global-colors.json"]
       }
     },
-    "Colors": {
+    "Semantic": {
       "modes": {
         "Light": ["light-mode-colors.json"],
         "Dark": ["dark-mode-colors.json"]

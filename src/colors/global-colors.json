@@ -1,240 +1,232 @@
 {
-  "Primary": {
-    "TKSYellow": {
-      "$type": "color",
-      "$value": "#ffe65e"
-    },
-    "TKSGreen": {
-      "$type": "color",
-      "$value": "#396039"
-    },
-    "TKSBlue": {
-      "$type": "color",
-      "$value": "#005895"
-    }
-  },
   "Blue": {
     "Blue50": {
       "$type": "color",
-      "$value": "#e7f0f8"
+      "$value": "#f0f6fd"
     },
     "Blue100": {
       "$type": "color",
-      "$value": "#d2e0ee"
+      "$value": "#cbe0f9"
     },
     "Blue200": {
       "$type": "color",
-      "$value": "#a8c1da"
+      "$value": "#a4cbf9"
     },
     "Blue300": {
       "$type": "color",
-      "$value": "#7fa2c6"
+      "$value": "#75b2f9"
     },
     "Blue400": {
       "$type": "color",
-      "$value": "#5385b4"
+      "$value": "#4698f1"
     },
     "Blue500": {
       "$type": "color",
-      "$value": "#005895"
+      "$value": "#217edb"
     },
     "Blue600": {
       "$type": "color",
-      "$value": "#004a82"
+      "$value": "#1b67b4"
     },
     "Blue700": {
       "$type": "color",
-      "$value": "#003c6b"
+      "$value": "#13508f"
     },
     "Blue800": {
       "$type": "color",
-      "$value": "#002a4e"
+      "$value": "#133b66"
     },
     "Blue900": {
       "$type": "color",
-      "$value": "#001c35"
+      "$value": "#0b294a"
     },
     "Blue950": {
       "$type": "color",
-      "$value": "#000c1b"
+      "$value": "#06192e"
     }
   },
   "Green": {
     "Green50": {
       "$type": "color",
-      "$value": "#ebf0ea"
+      "$value": "#f1f7f1"
     },
     "Green100": {
       "$type": "color",
-      "$value": "#d6e2d6"
+      "$value": "#cee6cd"
     },
     "Green200": {
       "$type": "color",
-      "$value": "#b1c4b0"
+      "$value": "#a9d5a8"
     },
     "Green300": {
       "$type": "color",
-      "$value": "#8ca78b"
+      "$value": "#7dc27c"
     },
     "Green400": {
       "$type": "color",
-      "$value": "#698b68"
+      "$value": "#51ad53"
     },
     "Green500": {
       "$type": "color",
-      "$value": "#396039"
+      "$value": "#2d9534"
     },
     "Green600": {
       "$type": "color",
-      "$value": "#2d522d"
+      "$value": "#257a2a"
     },
     "Green700": {
       "$type": "color",
-      "$value": "#234423"
+      "$value": "#1b601f"
     },
     "Green800": {
       "$type": "color",
-      "$value": "#163017"
+      "$value": "#19461a"
     },
     "Green900": {
       "$type": "color",
-      "$value": "#0d200d"
+      "$value": "#0f3110"
     },
     "Green950": {
       "$type": "color",
-      "$value": "#040e04"
+      "$value": "#081e08"
     }
   },
   "Yellow": {
     "Yellow50": {
       "$type": "color",
-      "$value": "#fdf6d8"
+      "$value": "#faf7d8"
     },
     "Yellow100": {
       "$type": "color",
-      "$value": "#ffefb2"
+      "$value": "#ebe193"
     },
     "Yellow200": {
       "$type": "color",
-      "$value": "#ffe671"
+      "$value": "#ddca2f"
     },
     "Yellow300": {
       "$type": "color",
-      "$value": "#edcc48"
+      "$value": "#c2b000"
     },
     "Yellow400": {
       "$type": "color",
-      "$value": "#caac2f"
+      "$value": "#a69716"
     },
     "Yellow500": {
       "$type": "color",
-      "$value": "#a78d1e"
+      "$value": "#8c7f02"
     },
     "Yellow600": {
       "$type": "color",
-      "$value": "#86700a"
+      "$value": "#726708"
     },
     "Yellow700": {
       "$type": "color",
-      "$value": "#665400"
+      "$value": "#59510b"
     },
     "Yellow800": {
       "$type": "color",
-      "$value": "#473900"
+      "$value": "#423b09"
     },
     "Yellow900": {
       "$type": "color",
-      "$value": "#312802"
+      "$value": "#2e2a07"
     },
     "Yellow950": {
       "$type": "color",
-      "$value": "#201a03"
+      "$value": "#1c1902"
     }
   },
   "Red": {
     "Red50": {
       "$type": "color",
-      "$value": "#fceae8"
+      "$value": "#fef2f1"
     },
     "Red100": {
       "$type": "color",
-      "$value": "#f8d4d1"
+      "$value": "#f9d4d0"
     },
     "Red200": {
       "$type": "color",
-      "$value": "#febab4"
+      "$value": "#f7b4ad"
     },
     "Red300": {
       "$type": "color",
-      "$value": "#fa8880"
+      "$value": "#f88a82"
     },
     "Red400": {
       "$type": "color",
-      "$value": "#ff645f"
+      "$value": "#f45a56"
     },
     "Red500": {
       "$type": "color",
-      "$value": "#fa3d42"
+      "$value": "#e4212f"
     },
     "Red600": {
       "$type": "color",
-      "$value": "#d01c29"
+      "$value": "#bd1624"
     },
     "Red700": {
       "$type": "color",
-      "$value": "#a20519"
+      "$value": "#94151d"
     },
     "Red800": {
       "$type": "color",
-      "$value": "#72020e"
+      "$value": "#700b12"
     },
     "Red900": {
       "$type": "color",
-      "$value": "#4f0a0d"
+      "$value": "#50080b"
     },
     "Red950": {
       "$type": "color",
-      "$value": "#340909"
+      "$value": "#320607"
     }
   },
   "Monotone": {
-    "MonotoneBrightest": {
+    "Monotone50": {
       "$type": "color",
-      "$value": "#fcfcfc"
+      "$value": "#f5f5f5"
     },
     "Monotone100": {
       "$type": "color",
-      "$value": "#d7d7d7"
+      "$value": "#dedede"
     },
     "Monotone200": {
       "$type": "color",
-      "$value": "#b4b4b4"
+      "$value": "#c7c7c7"
     },
     "Monotone300": {
       "$type": "color",
-      "$value": "#929292"
+      "$value": "#aeaeae"
     },
     "Monotone400": {
       "$type": "color",
-      "$value": "#717171"
+      "$value": "#959595"
     },
     "Monotone500": {
       "$type": "color",
-      "$value": "#525252"
+      "$value": "#7d7d7d"
     },
     "Monotone600": {
       "$type": "color",
-      "$value": "#353535"
+      "$value": "#666666"
     },
-    "MonotoneDarkest": {
+    "Monotone700": {
       "$type": "color",
-      "$value": "#1b1b1b"
-    }
-  },
-  "Actions": {
-    "Like": {
+      "$value": "#505050"
+    },
+    "Monotone800": {
       "$type": "color",
-      "$value": "#fa3d42"
+      "$value": "#3a3a3a"
+    },
+    "Monotone900": {
+      "$type": "color",
+      "$value": "#292929"
+    },
+    "Monotone950": {
+      "$type": "color",
+      "$value": "#181818"
     }
   }
 }
