@@ -1,3 +1,9 @@
+## [1.5.0](https://github.com/o2project/design-system/compare/v1.4.2...v1.5.0) (2026-01-10)
+
+### ✨ Features
+
+* add multi-framework color token generation with OKLCH format ([9cdc223](https://github.com/o2project/design-system/commit/9cdc223c2f5c531e0d7d530f2fdfdb84ae1c9591))
+
 ## [1.4.2](https://github.com/o2project/design-system/compare/v1.4.1...v1.4.2) (2026-01-09)
 
 ### 📚 Some changes
