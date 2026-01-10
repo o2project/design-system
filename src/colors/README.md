@@ -1,21 +1,25 @@
 # Color Tokens
 
-このディレクトリは[Design Tokens Color Module 2025.10](https://www.designtokens.org/tr/2025.10/color/)の形式に沿った色情報を定義しています。
+このディレクトリは [Design Tokens Color Module 2025.10](https://www.designtokens.org/tr/2025.10/color/) の形式に沿った色情報を定義しています。
 
-[Variables Import](https://www.figma.com/community/plugin/1253424530216967528/variables-import)プラグインを使用して、Figmaに取り込めます。
+[Variables Import](https://www.figma.com/community/plugin/1253424530216967528/variables-import) プラグインを使用して、Figmaに取り込むことができます。
 
 ## 手順
 
 1. FigmaにVariables Importプラグインをインストール
-2. Figma上でVariables Importプラグイン
-3. `colors.json` と `manifest.json` ファイルを選択してインポート
+2. Figma上でVariables Importプラグインを起動
+3. 以下のファイルを選択してインポート：
+   - `manifest.json`
+   - `global-colors.json`
+   - `light-mode-colors.json`
+   - `dark-mode-colors.json`
 4. 自動的にColor Variablesとして登録されます
 
-## Variables定義
+## カラー定義
 
-それぞれの色は[OKLCH Color Picker & Converter](https://oklch.com/)で明るさ・彩度・色合いを調整しながら使う色を決めています。DCI-P3色域に収まる範囲内で色を指定しています。
+それぞれの色は [OKLCH Color Picker & Converter](https://oklch.com/) で明るさ・彩度・色合いを調整しながら決定しています。DCI-P3色域に収まる範囲内で色を指定しています。
 
-コントラスト比は[APCA Contrast Calculator](https://apcacontrast.com/)で確認しています。
+コントラスト比は [APCA Contrast Calculator](https://apcacontrast.com/) で確認しています。
 
 ### Red
 
@@ -97,45 +101,142 @@
 | Monotone900 | `oklch(0.28 0 0)` | `#292929` |
 | Monotone950 | `oklch(0.21 0 0)` | `#181818` |
 
-### Primary colors
+## カラートークンの使用方法
 
-#### TKS Blue
+### ビルド方法
 
-落ち着きがある中にも明るいトーンの青色。メインカラーで使います。
+以下のコマンドを実行して、カラーファイルを生成します：
+
+```bash
+npm run build
+```
+
+このコマンドにより、以下のファイルが自動生成されます：
+
+- `dist/main.css` - Pure CSS Custom Properties（OKLCH形式）
+- `dist/main.tailwind.css` - Tailwind CSS v4 テーマ設定
+- `dist/panda.config.ts` - Panda CSS 設定ファイル
+
+### フレームワーク別の使用方法
+
+#### Pure CSS
+
+プロジェクトでCSS変数をインポートして使用します：
+
+```css
+@import '@o2project/design-system/dist/main.css';
+
+.my-component {
+  /* global color */
+  color: var(--color-blue-700);
+  border: 1px solid var(--color-blue-200);
+
+  /* semantic token */
+  background: var(--color-neutral-background);
+  color: var(--color-neutral-text);
+}
+```
+
+ダークモードは `@media (prefers-color-scheme: dark)` により自動的に適用されます。
+
+#### Tailwind CSS v4
+
+Tailwind CSS v4 ではCSS ベースの設定を使用します：
+
+```css
+/* app.css */
+@import '@o2project/design-system/dist/main.tailwind.css';
+```
+
+HTML/JSXで使用：
+
+```html
+<div class="bg-primary-main text-neutral-background">Hello World</div>
+```
+
+#### Panda CSS
+
+Panda CSSがインストールされていない場合は、まずインストールします：
+
+```bash
+npm install -D @pandacss/dev
+```
+
+`panda.config.ts` で設定をインポートします：
+
+```typescript
+import { defineConfig } from '@pandacss/dev';
+import designSystemColors from '@o2project/design-system/panda.config';
+
+export default defineConfig({
+  presets: [designSystemColors],
+  include: ['./src/**/*.{js,jsx,ts,tsx}'],
+  outdir: 'styled-system',
+});
+```
+
+コンポーネントで使用：
+
+```tsx
+import { css } from '../styled-system/css';
+
+const styles = css({
+  color: 'primary.main',
+  bg: 'neutral.background',
+});
+```
+
+### 色の更新
+
+1. このREADME.mdファイル内のOKLCH値を編集
+2. `npm run build` を実行
+3. すべての生成ファイル（`dist/main.css`、`dist/main.tailwind.css`、`dist/panda.config.ts`）とJSONファイルが自動的に更新されます
+
+**注意**: 生成されたファイルには "DO NOT EDIT MANUALLY" と記載されています。常にこのREADME内のOKLCH値を編集してください。
+
+## セマンティックトークン
+
+セマンティックトークンは、デザイン上の役割に基づいた色の定義です。ライトモードとダークモードで自動的に切り替わります。
+
+### Primary Colors
+
+#### Primary.Main
+
+落ち着きがある中にも明るいトーンの青色。メインカラーとして使用します。
 
 | Theme | Value        |
 | ----- | ------------ |
 | Light | Blue.Blue700 |
 | Dark  | Blue.Blue600 |
 
-#### TKS Green
+#### Primary.Accent
 
-落ち着いたトーンの緑色。サブカラーで使います。
+フレッシュで明るいトーンの緑色。アクセントカラーとして使用します。
 
 | Theme | Value          |
 | ----- | -------------- |
-| Light | Green.Green700 |
-| Dark  | Green.Green600 |
+| Light | Green.Green200 |
+| Dark  | Green.Green300 |
 
-#### TKS Yellow
+### Actions
 
-フレッシュな明るい黄色。アクセントカラーで使います。
+#### Like（Actions.Like）
 
-| Theme | Value            |
-| ----- | ---------------- |
-| Light | Yellow.Yellow200 |
-| Dark  | Yellow.Yellow200 |
-
-### Action colors
-
-#### Like
-
-いいねボタンの塗りつぶしで使います。
+いいねボタンの塗りつぶしで使用します。
 
 | Theme | Value      |
 | ----- | ---------- |
-| Light | Red.Red500 |
-| Dark  | Red.Red600 |
+| Light | Red.Red400 |
+| Dark  | Red.Red400 |
+
+### Neutral
+
+- **Background**: 背景色
+- **Text**: 本文テキスト
+- **SubText**: 補助テキスト（キャプションなど）
+- **Border**: ボーダー・区切り線
+- **White**: 白色（固定値）
+- **Black**: 黒色（固定値）
 
 ## 関連リンク
 

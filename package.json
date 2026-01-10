@@ -6,19 +6,22 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "main.css",
+  "main": "dist/main.css",
+  "exports": {
+    "./panda.config": "./dist/panda.config.ts"
+  },
   "files": [
     "CHANGELOG.md",
-    "main.tailwind.css"
+    "dist"
   ],
   "scripts": {
+    "build": "tsx src/colors/scripts/build.ts",
     "check-typescript": "tsc --noEmit",
     "lint": "eslint '**/*.{js,jsx,ts,tsx}'",
     "format": "prettier --write .",
     "storybook": "storybook dev -p 15021",
     "build-storybook": "storybook build",
-    "test:oklch": "tsx src/colors/scripts/oklch-to-hex.ts",
-    "sync:colors": "tsx src/colors/scripts/sync-colors.ts"
+    "test": "tsx --test tests/integration/**/*.test.ts"
   },
   "keywords": [],
   "author": "O2 Project",

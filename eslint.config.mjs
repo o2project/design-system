@@ -5,6 +5,9 @@ import storybook from 'eslint-plugin-storybook';
 export default defineConfig([
   ...config,
   {
+    ignores: ['dist/**'],
+  },
+  {
     files: ['**/*.stories.ts', '**/*.stories.tsx'],
     extends: [storybook.configs['flat/recommended']],
   },
