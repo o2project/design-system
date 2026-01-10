@@ -96,7 +96,86 @@ export const Primary = {
 
 ## 🎨 Tailwind CSS
 
-Tailwind CSS is configured and integrated with Storybook. You can use all Tailwind utility classes in your components.
+This design system uses Tailwind CSS v4 with CSS-first configuration. Tailwind is integrated with Storybook, and you can use all Tailwind utility classes in your components. See the [Using Colors](#using-colors) section for how to use the design system's color tokens in your project.
+
+## 🎨 Color System
+
+This design system uses OKLCH color space for perceptually uniform colors.
+
+### Building Colors
+
+To generate color files for different frameworks:
+
+```bash
+npm run build
+```
+
+This command generates:
+
+- `dist/main.css` - Pure CSS Custom Properties
+- `dist/main.tailwind.css` - Tailwind CSS v4 theme
+- `dist/panda.config.ts` - Panda CSS configuration
+
+### Using Colors
+
+#### Pure CSS
+
+```css
+@import '@o2project/design-system/dist/main.css';
+
+.my-component {
+  color: var(--color-primary-main);
+  background: var(--color-neutral-background);
+}
+```
+
+#### Tailwind CSS v4
+
+Tailwind CSS v4 uses CSS-first configuration. Import the design system's color theme in your CSS file:
+
+```css
+/* app.css or main.css */
+@import 'tailwindcss';
+@import '@o2project/design-system/dist/main.tailwind.css';
+```
+
+Then use the color classes in your HTML/JSX:
+
+```html
+<!-- Global colors -->
+<div class="bg-blue-700 text-blue-50">Blue themed component</div>
+
+<!-- Semantic tokens -->
+<div class="bg-primary-main text-neutral-background">Primary themed component</div>
+```
+
+Available color classes:
+
+- Global colors: `red-*`, `green-*`, `blue-*`, `yellow-*`, `monotone-*` (50-950)
+- Semantic tokens: `primary-main`, `primary-accent`, `actions-like`, `neutral-background`, `neutral-text`, `neutral-subtext`, `neutral-border`, `neutral-white`, `neutral-black`
+
+For more details about the color system, see [src/colors/README.md](src/colors/README.md).
+
+#### Panda CSS
+
+```typescript
+// panda.config.ts
+import { defineConfig } from '@pandacss/dev';
+import designSystemColors from '@o2project/design-system/panda.config';
+
+export default defineConfig({
+  presets: [designSystemColors],
+  // ...
+});
+```
+
+### Updating Colors
+
+1. Edit OKLCH values in `src/colors/README.md`
+2. Run `npm run build`
+3. All color files will be automatically updated
+
+For more details, see [src/colors/README.md](src/colors/README.md).
 
 ## 📚 Documentation
 

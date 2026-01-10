@@ -1,38 +1,58 @@
 import * as fs from 'fs';
-import * as path from 'path';
-import { fileURLToPath } from 'url';
 
 import { oklchToHex } from './oklch-to-hex.js';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-
+/**
+ * Represents a single color entry with name and color values.
+ */
 interface ColorEntry {
+  /** Color name identifier */
   name: string;
+  /** OKLCH color value */
   oklch: string;
+  /** Hex color value */
   hex: string;
 }
 
+/**
+ * Represents a group of related colors.
+ */
 interface ColorGroup {
+  /** Name of the color group */
   groupName: string;
+  /** Array of color entries in this group */
   colors: ColorEntry[];
 }
 
+/**
+ * Represents a color token with its type and value.
+ */
 interface ColorToken {
+  /** Token type */
   $type: string;
+  /** Token value */
   $value: string;
 }
 
+/**
+ * Maps color names to their token definitions within a group.
+ */
 interface ColorGroupData {
   [colorName: string]: ColorToken;
 }
 
+/**
+ * Maps group names to their color group data.
+ */
 interface GlobalColorsData {
   [groupName: string]: ColorGroupData;
 }
 
 /**
- * Extract OKLCH values from README.md
+ * Extracts OKLCH color values from README.md and converts them to hex.
+ *
+ * @param readmePath - Path to the README.md file
+ * @returns Array of color groups with extracted colors
  */
 function extractColorsFromReadme(readmePath: string): ColorGroup[] {
   const content = fs.readFileSync(readmePath, 'utf-8');
@@ -58,8 +78,8 @@ function extractColorsFromReadme(readmePath: string): ColorGroup[] {
     const lines = sectionContent.split('\n');
 
     for (const line of lines) {
-      // Match table rows like: | Red50  | oklch(0.95 0.020 25) | #fceae8 |
-      const match = line.match(/\|\s*(\w+)\s*\|\s*(oklch\([\d.\s]+\))\s*\|\s*(#[0-9a-fA-F]{6})\s*\|/);
+      // Match table rows like: | Red50  | `oklch(0.95 0.020 25)` | `#fceae8` |
+      const match = line.match(/\|\s*(\w+)\s*\|\s*`(oklch\([\d.\s]+\))`\s*\|\s*`(#[0-9a-fA-F]{6})`\s*\|/);
 
       if (match) {
         const [, name, oklch] = match;
@@ -77,7 +97,10 @@ function extractColorsFromReadme(readmePath: string): ColorGroup[] {
 }
 
 /**
- * Update global-colors.json with converted hex values
+ * Updates global-colors.json with converted hex values from color groups.
+ *
+ * @param jsonPath - Path to the global-colors.json file
+ * @param colorGroups - Array of color groups containing hex values
  */
 function updateGlobalColorsJson(jsonPath: string, colorGroups: ColorGroup[]): void {
   const content = fs.readFileSync(jsonPath, 'utf-8');
@@ -99,7 +122,10 @@ function updateGlobalColorsJson(jsonPath: string, colorGroups: ColorGroup[]): vo
 }
 
 /**
- * Update README.md with converted hex values
+ * Updates README.md with converted hex values in the color tables.
+ *
+ * @param readmePath - Path to the README.md file
+ * @param colorGroups - Array of color groups containing hex values
  */
 function updateReadmeHex(readmePath: string, colorGroups: ColorGroup[]): void {
   let content = fs.readFileSync(readmePath, 'utf-8');
@@ -107,9 +133,9 @@ function updateReadmeHex(readmePath: string, colorGroups: ColorGroup[]): void {
   for (const group of colorGroups) {
     for (const color of group.colors) {
       // Replace hex value in table rows
-      // Match: | Name | oklch(...) | #hexval |
+      // Match: | Name | `oklch(...)` | `#hexval` |
       const pattern = new RegExp(
-        `(\\|\\s*${color.name}\\s*\\|\\s*${color.oklch.replace(/[()]/g, '\\$&')}\\s*\\|\\s*)#[0-9a-fA-F]{6}(\\s*\\|)`,
+        `(\\|\\s*${color.name}\\s*\\|\\s*\`${color.oklch.replace(/[()]/g, '\\$&')}\`\\s*\\|\\s*\`)#[0-9a-fA-F]{6}(\`\\s*\\|)`,
         'g',
       );
       content = content.replace(pattern, `$1${color.hex}$2`);
@@ -119,38 +145,4 @@ function updateReadmeHex(readmePath: string, colorGroups: ColorGroup[]): void {
   fs.writeFileSync(readmePath, content, 'utf-8');
 }
 
-/**
- * Main function to sync colors
- */
-function syncColors(): void {
-  const readmePath = path.join(__dirname, 'README.md');
-  const jsonPath = path.join(__dirname, 'global-colors.json');
-
-  console.log('Reading OKLCH values from README.md...');
-  const colorGroups = extractColorsFromReadme(readmePath);
-
-  let totalColors = 0;
-  for (const group of colorGroups) {
-    console.log(`  ${group.groupName}: ${group.colors.length} colors`);
-    totalColors += group.colors.length;
-  }
-
-  console.log(`\nTotal colors extracted: ${totalColors}`);
-
-  console.log('\nUpdating global-colors.json...');
-  updateGlobalColorsJson(jsonPath, colorGroups);
-  console.log('✓ global-colors.json updated');
-
-  console.log('\nUpdating README.md hex values...');
-  updateReadmeHex(readmePath, colorGroups);
-  console.log('✓ README.md updated');
-
-  console.log('\n✓ Color sync completed successfully!');
-}
-
-// Run sync if executed directly
-if (import.meta.url === `file://${process.argv[1]}`) {
-  syncColors();
-}
-
-export { extractColorsFromReadme, syncColors };
+export { extractColorsFromReadme, updateGlobalColorsJson, updateReadmeHex };

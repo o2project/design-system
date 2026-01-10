@@ -1,7 +1,16 @@
 import { formatHex, oklch } from 'culori';
 
 /**
- * Parse OKLCH string like "oklch(0.97 0 0)" and convert to Hex
+ * Parses an OKLCH string and converts it to a hex color value.
+ *
+ * @param oklchString - OKLCH color string (e.g., "oklch(0.97 0 0)")
+ * @returns Hex color value (e.g., "#f5f5f5")
+ * @throws Error if the OKLCH format is invalid
+ *
+ * @example
+ * ```typescript
+ * oklchToHex("oklch(0.97 0 0)") // returns "#f5f5f5"
+ * ```
  */
 export function oklchToHex(oklchString: string): string {
   const match = oklchString.match(/oklch\(([\d.]+)\s+([\d.]+)\s+([\d.]+)\)/);
@@ -22,7 +31,7 @@ export function oklchToHex(oklchString: string): string {
 }
 
 /**
- * Test cases using Monotone colors from README.md
+ * Test cases using Monotone colors from README.md.
  */
 export const monotoneTestCases = [
   { oklch: 'oklch(0.97 0 0)', expected: '#f5f5f5', name: 'Monotone50' },
@@ -39,7 +48,8 @@ export const monotoneTestCases = [
 ];
 
 /**
- * Run tests
+ * Runs OKLCH to Hex conversion tests and outputs results to console.
+ * Exits with code 1 if any test fails.
  */
 export function runTests(): void {
   console.log('Running OKLCH to Hex conversion tests...\n');
