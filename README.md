@@ -121,7 +121,7 @@ This command generates:
 #### Pure CSS
 
 ```css
-@import '@o2project/design-system/dist/main.css';
+@import '@o2project/design-system/main.css';
 
 .my-component {
   color: var(--color-primary-main);
@@ -136,7 +136,7 @@ Tailwind CSS v4 uses CSS-first configuration. Import the design system's color t
 ```css
 /* app.css or main.css */
 @import 'tailwindcss';
-@import '@o2project/design-system/dist/main.tailwind.css';
+@import '@o2project/design-system/tailwind.css';
 ```
 
 Then use the color classes in your HTML/JSX:

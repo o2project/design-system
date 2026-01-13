@@ -124,7 +124,7 @@ npm run build
 プロジェクトでCSS変数をインポートして使用します：
 
 ```css
-@import '@o2project/design-system/dist/main.css';
+@import '@o2project/design-system/main.css';
 
 .my-component {
   /* global color */
@@ -145,7 +145,7 @@ Tailwind CSS v4 ではCSS ベースの設定を使用します：
 
 ```css
 /* app.css */
-@import '@o2project/design-system/dist/main.tailwind.css';
+@import '@o2project/design-system/tailwind.css';
 ```
 
 HTML/JSXで使用：

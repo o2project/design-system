@@ -8,6 +8,9 @@
   },
   "main": "dist/main.css",
   "exports": {
+    ".": "./dist/main.css",
+    "./main.css": "./dist/main.css",
+    "./tailwind.css": "./dist/main.tailwind.css",
     "./panda.config": "./dist/panda.config.ts"
   },
   "files": [
