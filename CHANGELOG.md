@@ -1,3 +1,9 @@
+## [1.5.1](https://github.com/o2project/design-system/compare/v1.5.0...v1.5.1) (2026-01-13)
+
+### 🐛 Bug Fixes
+
+* add package exports for dist files ([9624b84](https://github.com/o2project/design-system/commit/9624b84b9dab850f4bff44c4c579d8f6a4061d8b))
+
 ## [1.5.0](https://github.com/o2project/design-system/compare/v1.4.2...v1.5.0) (2026-01-10)
 
 ### ✨ Features
