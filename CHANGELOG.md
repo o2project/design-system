@@ -1,3 +1,9 @@
+## [1.5.2](https://github.com/o2project/design-system/compare/v1.5.1...v1.5.2) (2026-01-18)
+
+### 📚 Some changes
+
+* **deps:** update actions/setup-node action to v6.2.0 ([6abb9e3](https://github.com/o2project/design-system/commit/6abb9e345a58f4d741bc06076c33dbc019cc3737))
+
 ## [1.5.1](https://github.com/o2project/design-system/compare/v1.5.0...v1.5.1) (2026-01-13)
 
 ### 🐛 Bug Fixes
