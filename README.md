@@ -9,12 +9,12 @@ This design system is built with [Storybook](https://storybook.js.org/) and styl
 ### Prerequisites
 
 - Node.js (version 18 or higher recommended)
-- npm
+- [Bun](https://bun.sh/)
 
 ### Installation
 
 ```bash
-npm install
+bun install
 ```
 
 ### Development
@@ -22,7 +22,7 @@ npm install
 Start the Storybook development server:
 
 ```bash
-npm run storybook
+bun run storybook
 ```
 
 This will start Storybook at [http://localhost:15021](http://localhost:15021)
@@ -32,7 +32,7 @@ This will start Storybook at [http://localhost:15021](http://localhost:15021)
 Build a static version of Storybook:
 
 ```bash
-npm run build-storybook
+bun run build-storybook
 ```
 
 The static files will be generated in the `storybook-static/` directory.
@@ -107,7 +107,7 @@ This design system uses OKLCH color space for perceptually uniform colors.
 To generate color files for different frameworks:
 
 ```bash
-npm run build
+bun run build
 ```
 
 This command generates:
