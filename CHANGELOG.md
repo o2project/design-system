@@ -1,3 +1,14 @@
+## [1.5.3](https://github.com/o2project/design-system/compare/v1.5.2...v1.5.3) (2026-01-19)
+
+### 🐛 Bug Fixes
+
+* **ci:** add setup-node for semantic-release ([58476d8](https://github.com/o2project/design-system/commit/58476d853da0a46d3054eea89b3ca6da86d1c01b))
+* **ci:** correct oven-sh/setup-bun commit SHA ([1e1b6ff](https://github.com/o2project/design-system/commit/1e1b6ff22fede0fe472b9b74a9c4ac3a008e8661))
+
+### 📚 Some changes
+
+* **deps:** update actions/cache action to v5 ([f3d32fb](https://github.com/o2project/design-system/commit/f3d32fbc71e374af499dd1ee5348e7626ac4fd6b))
+
 ## [1.5.2](https://github.com/o2project/design-system/compare/v1.5.1...v1.5.2) (2026-01-18)
 
 ### 📚 Some changes
