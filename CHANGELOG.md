@@ -1,3 +1,9 @@
+## [1.5.6](https://github.com/o2project/design-system/compare/v1.5.5...v1.5.6) (2026-01-22)
+
+### 📚 Some changes
+
+* **deps:** update actions/checkout action to v6.0.2 ([#30](https://github.com/o2project/design-system/issues/30)) ([8d968cd](https://github.com/o2project/design-system/commit/8d968cd1ff9d8c4a772ffb6a76fddba228f088e5))
+
 ## [1.5.5](https://github.com/o2project/design-system/compare/v1.5.4...v1.5.5) (2026-01-21)
 
 ### 📚 Some changes
