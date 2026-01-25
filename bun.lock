@@ -9,7 +9,7 @@
       },
       "devDependencies": {
         "@eslint/js": "9.39.2",
-        "@kubosho/configs": "6.5.17",
+        "@kubosho/configs": "6.5.18",
         "@semantic-release/changelog": "6.0.3",
         "@semantic-release/commit-analyzer": "13.0.1",
         "@semantic-release/git": "10.0.1",
@@ -198,7 +198,7 @@
 
     "@jridgewell/trace-mapping": ["@jridgewell/trace-mapping@0.3.31", "", { "dependencies": { "@jridgewell/resolve-uri": "^3.1.0", "@jridgewell/sourcemap-codec": "^1.4.14" } }, "sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw=="],
 
-    "@kubosho/configs": ["@kubosho/configs@6.5.17", "", { "dependencies": { "globals": "16.5.0" } }, "sha512-VZ+SwNfjWB2zhBWoIce+RlOX8PUoNLQMlxIlYk8kaHA6aFK7h9+DHL72jtf54E+rHbD2y3ZKoITXQR6nVg/rUQ=="],
+    "@kubosho/configs": ["@kubosho/configs@6.5.18", "", { "dependencies": { "globals": "16.5.0" } }, "sha512-PuO3ujFbJJu+SFU6drniZRbNMtJyOkfqwTHFVdUJGnbhCkg9KsxoRDqwV3kp6V1aek43oe8M6sAbQdBdd9M09w=="],
 
     "@mdx-js/react": ["@mdx-js/react@3.1.1", "", { "dependencies": { "@types/mdx": "^2.0.0" }, "peerDependencies": { "@types/react": ">=16", "react": ">=16" } }, "sha512-f++rKLQgUVYDAtECQ6fn/is15GkEH9+nZPM3MS0RcxVqoTfawHvDlSCH7JbMhAM6uJ32v3eXLvLmLvjGu7PTQw=="],
 
