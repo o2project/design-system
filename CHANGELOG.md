@@ -1,3 +1,9 @@
+## [1.5.9](https://github.com/o2project/design-system/compare/v1.5.8...v1.5.9) (2026-01-25)
+
+### 📚 Some changes
+
+* **deps:** update dependency prettier to v3.8.1 ([#34](https://github.com/o2project/design-system/issues/34)) ([1be090f](https://github.com/o2project/design-system/commit/1be090fd053e735f1243620ad477566bf0b01b41))
+
 ## [1.5.8](https://github.com/o2project/design-system/compare/v1.5.7...v1.5.8) (2026-01-23)
 
 ### 📚 Some changes
