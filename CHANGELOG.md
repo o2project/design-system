@@ -1,3 +1,9 @@
+## [1.5.15](https://github.com/o2project/design-system/compare/v1.5.14...v1.5.15) (2026-02-01)
+
+### 📚 Some changes
+
+* **deps:** update actions/cache action to v5.0.3 ([#41](https://github.com/o2project/design-system/issues/41)) ([a0ac0a5](https://github.com/o2project/design-system/commit/a0ac0a5bbbd977e6e29a7d2f449e5915e90f0d4d))
+
 ## [1.5.14](https://github.com/o2project/design-system/compare/v1.5.13...v1.5.14) (2026-01-30)
 
 ### 📚 Some changes
