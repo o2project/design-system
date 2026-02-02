@@ -1,3 +1,10 @@
+## [1.5.17](https://github.com/o2project/design-system/compare/v1.5.16...v1.5.17) (2026-02-02)
+
+### 📚 Some changes
+
+* **deps:** update dependency @types/node to v25.1.0 ([db85104](https://github.com/o2project/design-system/commit/db85104be7db600403a66d35d9560960ab128165))
+* **deps:** update storybook monorepo to v10.2.1 ([af85eb0](https://github.com/o2project/design-system/commit/af85eb0b9b759448440bab2dcff6956dcc9a54fa))
+
 ## [1.5.16](https://github.com/o2project/design-system/compare/v1.5.15...v1.5.16) (2026-02-01)
 
 ### 📚 Some changes
