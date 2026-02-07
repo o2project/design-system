@@ -1,3 +1,10 @@
+## [1.5.20](https://github.com/o2project/design-system/compare/v1.5.19...v1.5.20) (2026-02-07)
+
+### 📚 Some changes
+
+* **deps:** update semantic-release monorepo ([#44](https://github.com/o2project/design-system/issues/44)) ([1b3e9cf](https://github.com/o2project/design-system/commit/1b3e9cf632528f4ea7aeed7fb125eeea7706f780))
+* **deps:** update storybook monorepo to v10.2.5 ([#47](https://github.com/o2project/design-system/issues/47)) ([413fd37](https://github.com/o2project/design-system/commit/413fd370f8610aca64b4136c2a6129a0b6d6b1d8))
+
 ## [1.5.19](https://github.com/o2project/design-system/compare/v1.5.18...v1.5.19) (2026-02-05)
 
 ### 📚 Some changes
