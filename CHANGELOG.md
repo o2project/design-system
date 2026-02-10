@@ -1,3 +1,9 @@
+## [1.5.25](https://github.com/o2project/design-system/compare/v1.5.24...v1.5.25) (2026-02-10)
+
+### 📚 Some changes
+
+* **deps:** update semantic-release monorepo ([#52](https://github.com/o2project/design-system/issues/52)) ([7ef903e](https://github.com/o2project/design-system/commit/7ef903e8f806cad5153d4514448f0f0b2a511564))
+
 ## [1.5.24](https://github.com/o2project/design-system/compare/v1.5.23...v1.5.24) (2026-02-08)
 
 ### 📚 Some changes
