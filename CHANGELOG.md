@@ -1,3 +1,9 @@
+## [1.5.28](https://github.com/o2project/design-system/compare/v1.5.27...v1.5.28) (2026-02-14)
+
+### 📚 Some changes
+
+* **deps:** update dependency @types/react to v19.2.14 ([#56](https://github.com/o2project/design-system/issues/56)) ([6c981c2](https://github.com/o2project/design-system/commit/6c981c28aaf59736f1acdfaa6f7dea181421172d))
+
 ## [1.5.27](https://github.com/o2project/design-system/compare/v1.5.26...v1.5.27) (2026-02-12)
 
 ### 📚 Some changes
