@@ -1,3 +1,9 @@
+## [1.5.29](https://github.com/o2project/design-system/compare/v1.5.28...v1.5.29) (2026-02-16)
+
+### 📚 Some changes
+
+* **deps:** update dependency @semantic-release/github to v12.0.6 ([#58](https://github.com/o2project/design-system/issues/58)) ([27b03e7](https://github.com/o2project/design-system/commit/27b03e75f3c27586d936eb898340af2049b2bf1c))
+
 ## [1.5.28](https://github.com/o2project/design-system/compare/v1.5.27...v1.5.28) (2026-02-14)
 
 ### 📚 Some changes
