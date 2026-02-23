@@ -1,3 +1,9 @@
+## [1.5.32](https://github.com/o2project/design-system/compare/v1.5.31...v1.5.32) (2026-02-23)
+
+### 📚 Some changes
+
+* **deps:** update eslint monorepo to v9.39.3 ([#62](https://github.com/o2project/design-system/issues/62)) ([3f6d6be](https://github.com/o2project/design-system/commit/3f6d6bee1e5f8c079e165358c0a60e76bef9eaa3))
+
 ## [1.5.31](https://github.com/o2project/design-system/compare/v1.5.30...v1.5.31) (2026-02-21)
 
 ### 📚 Some changes
