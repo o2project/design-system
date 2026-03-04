@@ -1,3 +1,9 @@
+## [1.5.39](https://github.com/o2project/design-system/compare/v1.5.38...v1.5.39) (2026-03-04)
+
+### 📚 Some changes
+
+* **deps:** update dependency @semantic-release/npm to v13.1.5 ([#68](https://github.com/o2project/design-system/issues/68)) ([4ed20aa](https://github.com/o2project/design-system/commit/4ed20aad58b9f729c4533839436c3b50a6cd6387))
+
 ## [1.5.38](https://github.com/o2project/design-system/compare/v1.5.37...v1.5.38) (2026-03-04)
 
 ### 📚 Some changes
