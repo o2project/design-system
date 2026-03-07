@@ -1,3 +1,9 @@
+## [1.5.43](https://github.com/o2project/design-system/compare/v1.5.42...v1.5.43) (2026-03-07)
+
+### 📚 Some changes
+
+* **deps:** update oven-sh/setup-bun action to v2.1.3 ([#74](https://github.com/o2project/design-system/issues/74)) ([57aab5e](https://github.com/o2project/design-system/commit/57aab5ea20af4000bb91158c308c2620a739db83))
+
 ## [1.5.42](https://github.com/o2project/design-system/compare/v1.5.41...v1.5.42) (2026-03-07)
 
 ### 📚 Some changes
