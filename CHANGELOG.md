@@ -1,3 +1,9 @@
+## [1.5.44](https://github.com/o2project/design-system/compare/v1.5.43...v1.5.44) (2026-03-09)
+
+### 📚 Some changes
+
+* **deps:** update dependency @types/node to v25.3.5 ([#75](https://github.com/o2project/design-system/issues/75)) ([75f8f6a](https://github.com/o2project/design-system/commit/75f8f6a7f94a7bb97a4d72927af95c3539836f80))
+
 ## [1.5.43](https://github.com/o2project/design-system/compare/v1.5.42...v1.5.43) (2026-03-07)
 
 ### 📚 Some changes
