@@ -1,3 +1,9 @@
+## [1.5.51](https://github.com/o2project/design-system/compare/v1.5.50...v1.5.51) (2026-03-21)
+
+### 🐛 Bug Fixes
+
+* **deps:** update tailwindcss monorepo to v4.2.2 ([#85](https://github.com/o2project/design-system/issues/85)) ([e79505b](https://github.com/o2project/design-system/commit/e79505b302f55e89cd2d8e053221f416f31bdb71))
+
 ## [1.5.50](https://github.com/o2project/design-system/compare/v1.5.49...v1.5.50) (2026-03-21)
 
 ### 📚 Some changes
