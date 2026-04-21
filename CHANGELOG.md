@@ -1,3 +1,9 @@
+## [1.5.58](https://github.com/o2project/design-system/compare/v1.5.57...v1.5.58) (2026-04-21)
+
+### 📚 Some changes
+
+* **deps:** update dependency @kubosho/configs to v6.5.36 ([#97](https://github.com/o2project/design-system/issues/97)) ([d9cf610](https://github.com/o2project/design-system/commit/d9cf6109a0c7092ea2c8622cea33482bf65a4106))
+
 ## [1.5.57](https://github.com/o2project/design-system/compare/v1.5.56...v1.5.57) (2026-04-21)
 
 ### 📚 Some changes
