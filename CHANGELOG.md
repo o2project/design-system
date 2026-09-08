@@ -1,3 +1,9 @@
+## [1.5.65](https://github.com/o2project/design-system/compare/v1.5.64...v1.5.65) (2026-09-08)
+
+### 📚 Some changes
+
+* **deps:** update react monorepo ([#122](https://github.com/o2project/design-system/issues/122)) ([92943cc](https://github.com/o2project/design-system/commit/92943cc2890c4ef5f1e63d44928a0afc5ba90054))
+
 ## [1.5.64](https://github.com/o2project/design-system/compare/v1.5.63...v1.5.64) (2026-09-08)
 
 ### 📚 Some changes
