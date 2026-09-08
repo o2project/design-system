@@ -1,3 +1,11 @@
+## [1.5.66](https://github.com/o2project/design-system/compare/v1.5.65...v1.5.66) (2026-09-08)
+
+### 📚 Some changes
+
+* **deps:** update actions/checkout action to v6.1.0 ([228838e](https://github.com/o2project/design-system/commit/228838e9aeb170b1ae625194c82ce03bfb339657))
+* **deps:** update dependency bun to v1.4.2 ([104498d](https://github.com/o2project/design-system/commit/104498dbc34fe2b102dc3bfef0d110774888607a))
+* **deps:** update dependency semantic-release to v25.0.9 ([3437f23](https://github.com/o2project/design-system/commit/3437f23f4158a922d0bf98a1b6800fd79f3861f2))
+
 ## [1.5.65](https://github.com/o2project/design-system/compare/v1.5.64...v1.5.65) (2026-09-08)
 
 ### 📚 Some changes
