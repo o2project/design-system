@@ -1,3 +1,34 @@
+## [1.5.62](https://github.com/o2project/design-system/compare/v1.5.61...v1.5.62) (2026-09-08)
+
+### 🐛 Bug Fixes
+
+* **deps:** update tailwindcss monorepo to v4.3.3 ([578b930](https://github.com/o2project/design-system/commit/578b9302b6a37d03ab7ec8f32a1d91b74539c9bb))
+
+### 📚 Some changes
+
+* **deps:** update actions/checkout action to v6.0.3 ([#106](https://github.com/o2project/design-system/issues/106)) ([dec8f1d](https://github.com/o2project/design-system/commit/dec8f1d9e3362d512d233de20f6f338c34617f4e))
+* **deps:** update dependency @kubosho/configs to v6.5.38 ([#119](https://github.com/o2project/design-system/issues/119)) ([461c840](https://github.com/o2project/design-system/commit/461c840280d667ad2ac88b8efd1582c77f70e157))
+* **deps:** update dependency @types/node to v25.9.5 ([bf2cce8](https://github.com/o2project/design-system/commit/bf2cce81a1c7bb3866515bd1098d26e0c9cb9e45))
+* **deps:** update dependency @types/react to v19.2.17 ([#107](https://github.com/o2project/design-system/issues/107)) ([95ec9d2](https://github.com/o2project/design-system/commit/95ec9d2ae7a41fe756795a08d2f265cc5d0bd4d5))
+* **deps:** update dependency bun to v1.3.14 ([#108](https://github.com/o2project/design-system/issues/108)) ([0f04122](https://github.com/o2project/design-system/commit/0f04122b4c7b52eac0b4f6e9f074922683af0feb))
+* **deps:** update dependency conventional-changelog-conventionalcommits to v9.3.1 ([6b2c799](https://github.com/o2project/design-system/commit/6b2c79916a6695a6ec69080dc431e98263e067a2))
+* **deps:** update dependency eslint-import-resolver-typescript to v4.4.5 ([#109](https://github.com/o2project/design-system/issues/109)) ([369975b](https://github.com/o2project/design-system/commit/369975bedbff69b179c90db736adc87f120b27d3))
+* **deps:** update dependency postcss to v8.5.12 ([#101](https://github.com/o2project/design-system/issues/101)) ([122ba0e](https://github.com/o2project/design-system/commit/122ba0ead74ff760c9bf2804fa09c2f249cd8aa1))
+* **deps:** update dependency postcss to v8.5.13 ([#102](https://github.com/o2project/design-system/issues/102)) ([e9bbd4f](https://github.com/o2project/design-system/commit/e9bbd4ff48cd87742b101fd6b81386af69fc11c1))
+* **deps:** update dependency postcss to v8.5.14 ([#103](https://github.com/o2project/design-system/issues/103)) ([9a26f2f](https://github.com/o2project/design-system/commit/9a26f2f75827ca90cb4d767ce4446683b934c512))
+* **deps:** update dependency postcss to v8.5.16 ([#110](https://github.com/o2project/design-system/issues/110)) ([a9041e5](https://github.com/o2project/design-system/commit/a9041e589451862c5a9d18fdf0aee61b22fc9b14))
+* **deps:** update dependency postcss to v8.5.19 ([#116](https://github.com/o2project/design-system/issues/116)) ([2432738](https://github.com/o2project/design-system/commit/243273844c0169e1e7e97cc5efb923be3498af85))
+* **deps:** update dependency postcss to v8.5.28 ([451dee9](https://github.com/o2project/design-system/commit/451dee99c84853a31f30155c89ce7e1dbd9c1a39))
+* **deps:** update dependency prettier to v3.8.5 ([#111](https://github.com/o2project/design-system/issues/111)) ([7b5d05b](https://github.com/o2project/design-system/commit/7b5d05bbdce8e6706e1ff047bc32d5e23e674217))
+* **deps:** update dependency prettier to v3.9.6 ([eae170f](https://github.com/o2project/design-system/commit/eae170f96e2d8628db721c06c59ad0393b000a30))
+* **deps:** update dependency semantic-release to v25.0.8 ([#117](https://github.com/o2project/design-system/issues/117)) ([4a5db7d](https://github.com/o2project/design-system/commit/4a5db7d51fddfe59141e206bb1437086e888e4a5))
+* **deps:** update dependency tsx to v4.21.1 ([#112](https://github.com/o2project/design-system/issues/112)) ([fdac6f5](https://github.com/o2project/design-system/commit/fdac6f5bf0edafc535e935609c965d07baec232f))
+* **deps:** update dependency typescript-eslint to v8.69.0 ([5c55338](https://github.com/o2project/design-system/commit/5c553383d84aacc5ee1aae03266c20d8e9ab66e9))
+* **deps:** update eslint monorepo to v10 ([229c306](https://github.com/o2project/design-system/commit/229c306638216398825cc1b986490185686b38d2))
+* **deps:** update eslint monorepo to v9.39.5 ([#114](https://github.com/o2project/design-system/issues/114)) ([1d08be2](https://github.com/o2project/design-system/commit/1d08be2880f33b0109a371506af95bfcc9b7c005))
+* **deps:** update semantic-release monorepo ([#104](https://github.com/o2project/design-system/issues/104)) ([ad9f9f9](https://github.com/o2project/design-system/commit/ad9f9f99c7c6a6134b7754e63156fd212c80e836))
+* **deps:** update semantic-release monorepo ([#113](https://github.com/o2project/design-system/issues/113)) ([0e1b85d](https://github.com/o2project/design-system/commit/0e1b85d7569533a331027771d93b78e4a557c49c))
+
 ## [1.5.61](https://github.com/o2project/design-system/compare/v1.5.60...v1.5.61) (2026-04-24)
 
 ### 🐛 Bug Fixes
