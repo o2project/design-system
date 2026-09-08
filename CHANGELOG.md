@@ -1,3 +1,11 @@
+## [1.5.64](https://github.com/o2project/design-system/compare/v1.5.63...v1.5.64) (2026-09-08)
+
+### 📚 Some changes
+
+* **deps:** update actions/cache action to v5.1.0 ([f3911eb](https://github.com/o2project/design-system/commit/f3911eb6aa86b68156f824bc55f6a55e39215ae4))
+* **deps:** update actions/setup-node action to v6.5.0 ([93d0ddf](https://github.com/o2project/design-system/commit/93d0ddf3eecafb99c33262eaba43c159314cb40d))
+* **deps:** update oven-sh/setup-bun action to v2.2.0 ([16623ab](https://github.com/o2project/design-system/commit/16623ab07d33966c4f58e36ba6a1e4013d5eb68d))
+
 ## [1.5.63](https://github.com/o2project/design-system/compare/v1.5.62...v1.5.63) (2026-09-08)
 
 ### 📚 Some changes
