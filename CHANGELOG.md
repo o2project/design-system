@@ -1,3 +1,10 @@
+## [1.5.67](https://github.com/o2project/design-system/compare/v1.5.66...v1.5.67) (2026-09-09)
+
+### 📚 Some changes
+
+* **deps:** update actions/setup-node action to v7 ([a6d1a8c](https://github.com/o2project/design-system/commit/a6d1a8c7e8ec280491f14c7c779526a3adb098ef))
+* **deps:** update dependency tsx to v4.23.13 ([aad00af](https://github.com/o2project/design-system/commit/aad00af51a7a3b1cc48ebfb9056b2aa507ae5e3a))
+
 ## [1.5.66](https://github.com/o2project/design-system/compare/v1.5.65...v1.5.66) (2026-09-08)
 
 ### 📚 Some changes
