@@ -1,3 +1,9 @@
+## [1.5.68](https://github.com/o2project/design-system/compare/v1.5.67...v1.5.68) (2026-09-09)
+
+### 📚 Some changes
+
+* **deps:** update dependency eslint-plugin-simple-import-sort to v14 ([a58cd73](https://github.com/o2project/design-system/commit/a58cd7369f918e7a60369b92fd39db5a4cdd2a37))
+
 ## [1.5.67](https://github.com/o2project/design-system/compare/v1.5.66...v1.5.67) (2026-09-09)
 
 ### 📚 Some changes
