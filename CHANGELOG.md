@@ -1,3 +1,13 @@
+## [1.5.69](https://github.com/o2project/design-system/compare/v1.5.68...v1.5.69) (2026-09-10)
+
+### 📚 Some changes
+
+* **deps:** update actions/cache action to v6 ([b19f1cd](https://github.com/o2project/design-system/commit/b19f1cdae45bff86efa4a8158725d52a02384ed6))
+* **deps:** update actions/checkout action to v7 ([7714d77](https://github.com/o2project/design-system/commit/7714d77cc9357af8f58feae65364dc16c16b3ef8))
+* **deps:** update dependency @types/node to v26 ([a2c5163](https://github.com/o2project/design-system/commit/a2c51631fffe88f86d04c065baa466865eba2516))
+* **deps:** update dependency conventional-changelog-conventionalcommits to v10 ([9c5cfb4](https://github.com/o2project/design-system/commit/9c5cfb4255bcbcf2c841a86230d88bea39d0171a))
+* **deps:** update semantic-release monorepo ([8953e46](https://github.com/o2project/design-system/commit/8953e46693aacd5de4f171fd299f5803a216c5b9))
+
 ## [1.5.68](https://github.com/o2project/design-system/compare/v1.5.67...v1.5.68) (2026-09-09)
 
 ### 📚 Some changes
