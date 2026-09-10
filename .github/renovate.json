@@ -1,3 +1,10 @@
 {
-  "extends": ["github>kubosho/configs//renovate/default"]
+  "extends": ["github>kubosho/configs//renovate/default"],
+  "packageRules": [
+    {
+      "description": "@semantic-release/release-notes-generator depends on conventional-changelog-writer@8, which cannot render the v10 preset",
+      "matchPackageNames": ["conventional-changelog-conventionalcommits"],
+      "allowedVersions": "<10"
+    }
+  ]
 }
