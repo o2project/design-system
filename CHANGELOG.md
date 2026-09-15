@@ -1,3 +1,9 @@
+## [1.5.74](https://github.com/o2project/design-system/compare/v1.5.73...v1.5.74) (2026-09-15)
+
+### 📚 Some changes
+
+* **deps:** update react monorepo to v19.3.0 ([b1348d2](https://github.com/o2project/design-system/commit/b1348d2e838df2cc8e5543496dc09e75c3835746))
+
 ## [1.5.73](https://github.com/o2project/design-system/compare/v1.5.72...v1.5.73) (2026-09-13)
 
 ### 📚 Some changes
