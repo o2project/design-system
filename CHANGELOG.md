@@ -1,3 +1,9 @@
+## [1.5.79](https://github.com/o2project/design-system/compare/v1.5.78...v1.5.79) (2026-09-22)
+
+### 📚 Some changes
+
+* **deps:** update dependency eslint to v10.11.0 ([ffd620a](https://github.com/o2project/design-system/commit/ffd620a8a8017abcccd00fd135e5626997b43887))
+
 ## [1.5.78](https://github.com/o2project/design-system/compare/v1.5.77...v1.5.78) (2026-09-22)
 
 ### 📚 Some changes
