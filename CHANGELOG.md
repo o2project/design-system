@@ -1,3 +1,9 @@
+## [1.5.80](https://github.com/o2project/design-system/compare/v1.5.79...v1.5.80) (2026-09-24)
+
+### 📚 Some changes
+
+* **deps:** update dependency tsx to v4.23.15 ([#145](https://github.com/o2project/design-system/issues/145)) ([7e31e5e](https://github.com/o2project/design-system/commit/7e31e5ea391e570dac09388dc42abd7ec82af225))
+
 ## [1.5.79](https://github.com/o2project/design-system/compare/v1.5.78...v1.5.79) (2026-09-22)
 
 ### 📚 Some changes
