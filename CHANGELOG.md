@@ -1,3 +1,10 @@
+## [1.5.83](https://github.com/o2project/design-system/compare/v1.5.82...v1.5.83) (2026-09-26)
+
+### 📚 Some changes
+
+* **deps:** update dependency @semantic-release/npm to v13.2.0 ([230a544](https://github.com/o2project/design-system/commit/230a5441b067b9ca0ecdce0b5e0ab5c24fe5564c))
+* **deps:** update dependency prettier to v3.9.9 ([f2acb6d](https://github.com/o2project/design-system/commit/f2acb6d41b71bdcf4fcd4f116b0843a4d1ea5909))
+
 ## [1.5.82](https://github.com/o2project/design-system/compare/v1.5.81...v1.5.82) (2026-09-25)
 
 ### 📚 Some changes
