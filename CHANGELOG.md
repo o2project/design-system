@@ -1,3 +1,9 @@
+## [1.5.93](https://github.com/o2project/design-system/compare/v1.5.92...v1.5.93) (2026-10-15)
+
+### 📚 Some changes
+
+* **deps:** update dependency typescript-eslint to v8.71.2 ([#161](https://github.com/o2project/design-system/issues/161)) ([b04bd3a](https://github.com/o2project/design-system/commit/b04bd3a4dfe1434c6f88b39fe8d0dd8d39491d0c))
+
 ## [1.5.92](https://github.com/o2project/design-system/compare/v1.5.91...v1.5.92) (2026-10-13)
 
 ### 📚 Some changes
