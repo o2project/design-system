@@ -1,3 +1,9 @@
+## [1.5.95](https://github.com/o2project/design-system/compare/v1.5.94...v1.5.95) (2026-10-16)
+
+### 📚 Some changes
+
+* **deps:** update dependency postcss to v8.5.30 ([#162](https://github.com/o2project/design-system/issues/162)) ([a6539f6](https://github.com/o2project/design-system/commit/a6539f659f55b2fc56cf8d327b53cedf25e94c86))
+
 ## [1.5.94](https://github.com/o2project/design-system/compare/v1.5.93...v1.5.94) (2026-10-16)
 
 ### 📚 Some changes
