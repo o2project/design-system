@@ -1,3 +1,10 @@
+## [1.5.94](https://github.com/o2project/design-system/compare/v1.5.93...v1.5.94) (2026-10-16)
+
+### 📚 Some changes
+
+* **deps:** update actions/setup-node action to v7.1.0 ([b3cc381](https://github.com/o2project/design-system/commit/b3cc3816015ad0fcac58741d0f0ac13da6451113))
+* **deps:** update storybook monorepo to v10.6.2 ([8c06e4d](https://github.com/o2project/design-system/commit/8c06e4d51f3cb3bca969bc22a43605bc51ce4621))
+
 ## [1.5.93](https://github.com/o2project/design-system/compare/v1.5.92...v1.5.93) (2026-10-15)
 
 ### 📚 Some changes
