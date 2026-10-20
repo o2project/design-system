@@ -1,3 +1,10 @@
+## [1.5.97](https://github.com/o2project/design-system/compare/v1.5.96...v1.5.97) (2026-10-20)
+
+### 📚 Some changes
+
+* **deps:** update dependency @kubosho/configs to v6.6.1 ([5fa132d](https://github.com/o2project/design-system/commit/5fa132dd1feccc602096e56753403f47b0af2f53))
+* **deps:** update dependency eslint to v10.13.0 ([466100f](https://github.com/o2project/design-system/commit/466100f2d3bf6b9355fcbc3c58d06971a7305aee))
+
 ## [1.5.96](https://github.com/o2project/design-system/compare/v1.5.95...v1.5.96) (2026-10-19)
 
 ### 📚 Some changes
