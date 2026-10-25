@@ -1,3 +1,9 @@
+## [1.5.101](https://github.com/o2project/design-system/compare/v1.5.100...v1.5.101) (2026-10-25)
+
+### 📚 Some changes
+
+* **deps:** update dependency bun to v1.4.4 ([#170](https://github.com/o2project/design-system/issues/170)) ([830db6c](https://github.com/o2project/design-system/commit/830db6c692aefede52f33083b85d77cbe3f90f17))
+
 ## [1.5.100](https://github.com/o2project/design-system/compare/v1.5.99...v1.5.100) (2026-10-23)
 
 ### 📚 Some changes
