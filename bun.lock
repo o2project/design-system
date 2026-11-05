@@ -9,7 +9,7 @@
       },
       "devDependencies": {
         "@eslint/js": "10.0.1",
-        "@kubosho/configs": "6.6.1",
+        "@kubosho/configs": "6.6.2",
         "@semantic-release/changelog": "7.0.0",
         "@semantic-release/commit-analyzer": "13.0.1",
         "@semantic-release/git": "11.0.1",
@@ -196,7 +196,7 @@
 
     "@keyv/serialize": ["@keyv/serialize@1.1.1", "", {}, "sha512-dXn3FZhPv0US+7dtJsIi2R+c7qWYiReoEh5zUntWCf4oSpMNib8FDhSoed6m3QyZdx5hK7iLFkYk3rNxwt8vTA=="],
 
-    "@kubosho/configs": ["@kubosho/configs@6.6.1", "", { "dependencies": { "globals": "17.13.0" } }, "sha512-+PeJ3bJfVY/g6h3X3eng+EbfeqJc7g3Y69DJhnWWZke5SU9fM92PhwWQEoI0InldqzNhPL59/PAiDXc20QAV+A=="],
+    "@kubosho/configs": ["@kubosho/configs@6.6.2", "", { "dependencies": { "globals": "17.13.0" } }, "sha512-oOCqP7oiywnDNe9PnkEqkGtR5+YHi+JVphEKxfL8mkHJahXaPq2NOTUlCNKz+wdO/lxCteofQSZv9qRU7ft+GA=="],
 
     "@mdx-js/react": ["@mdx-js/react@3.1.1", "", { "dependencies": { "@types/mdx": "^2.0.0" }, "peerDependencies": { "@types/react": ">=16", "react": ">=16" } }, "sha512-f++rKLQgUVYDAtECQ6fn/is15GkEH9+nZPM3MS0RcxVqoTfawHvDlSCH7JbMhAM6uJ32v3eXLvLmLvjGu7PTQw=="],
 
