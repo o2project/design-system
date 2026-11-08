@@ -9,7 +9,7 @@
       },
       "devDependencies": {
         "@eslint/js": "10.0.1",
-        "@kubosho/configs": "6.6.2",
+        "@kubosho/configs": "6.6.3",
         "@semantic-release/changelog": "7.0.0",
         "@semantic-release/commit-analyzer": "13.0.1",
         "@semantic-release/git": "11.0.1",
@@ -198,7 +198,7 @@
 
     "@keyv/serialize": ["@keyv/serialize@1.1.1", "", {}, "sha512-dXn3FZhPv0US+7dtJsIi2R+c7qWYiReoEh5zUntWCf4oSpMNib8FDhSoed6m3QyZdx5hK7iLFkYk3rNxwt8vTA=="],
 
-    "@kubosho/configs": ["@kubosho/configs@6.6.2", "", { "dependencies": { "globals": "17.13.0" } }, "sha512-oOCqP7oiywnDNe9PnkEqkGtR5+YHi+JVphEKxfL8mkHJahXaPq2NOTUlCNKz+wdO/lxCteofQSZv9qRU7ft+GA=="],
+    "@kubosho/configs": ["@kubosho/configs@6.6.3", "", { "dependencies": { "globals": "17.14.0" } }, "sha512-0j0VZajMkj8T/7n+0aezUy+KQn4subYut8cBY3q55yr1C2ClDaX4eM1MwN+ADJ6ptEenh7kEZK2D2+bZDx3qTA=="],
 
     "@mdx-js/react": ["@mdx-js/react@3.1.1", "", { "dependencies": { "@types/mdx": "^2.0.0" }, "peerDependencies": { "@types/react": ">=16", "react": ">=16" } }, "sha512-f++rKLQgUVYDAtECQ6fn/is15GkEH9+nZPM3MS0RcxVqoTfawHvDlSCH7JbMhAM6uJ32v3eXLvLmLvjGu7PTQw=="],
 
@@ -864,7 +864,7 @@
 
     "glob-parent": ["glob-parent@6.0.2", "", { "dependencies": { "is-glob": "^4.0.3" } }, "sha512-XxwI8EOhVQgWp6iDL+3b0r86f4d6AX6zSU55HfB4ydCEuXLXc5FcYeOu+nnGftS4TEju/11rt4KJPTMgbfmv4A=="],
 
-    "globals": ["globals@17.13.0", "", {}, "sha512-RwMTC61u7hrG3ZJMkZQOK4JLJrKS8QtoTii63EmWvFXHqycY9FObBJQCbsLxSO8kjKhWE5kV1GC+Vb1g3RI0Zg=="],
+    "globals": ["globals@17.14.0", "", {}, "sha512-UtdkTVyAJePQv0J2M9Xe4L0ruNSDV314XiIJsADI2Zf40bcdAonE/D/OhAU8AT99oij9mhLByb+NvA3QWZYgCg=="],
 
     "globalthis": ["globalthis@1.0.4", "", { "dependencies": { "define-properties": "^1.2.1", "gopd": "^1.0.1" } }, "sha512-DpLKbNU4WylpxJykQujfCcwYWiV/Jhm50Goo0wrVILAv5jOr9d+H+UR3PhSCD2rCCEIg0uc+G+muBTwD54JhDQ=="],
 
