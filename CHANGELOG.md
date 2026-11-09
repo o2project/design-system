@@ -1,3 +1,9 @@
+## [1.5.111](https://github.com/o2project/design-system/compare/v1.5.110...v1.5.111) (2026-11-09)
+
+### 📚 Some changes
+
+* **deps:** update storybook monorepo to v10.6.6 ([#181](https://github.com/o2project/design-system/issues/181)) ([2d034c6](https://github.com/o2project/design-system/commit/2d034c65ac805563236f2cd9938b2253fc65be13))
+
 ## [1.5.110](https://github.com/o2project/design-system/compare/v1.5.109...v1.5.110) (2026-11-08)
 
 ### 📚 Some changes
