@@ -1,6 +1,6 @@
 {
   "name": "@o2project/design-system",
-  "version": "1.5.114",
+  "version": "1.5.115",
   "type": "module",
   "description": "Design system for O2 Project",
   "publishConfig": {
