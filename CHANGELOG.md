@@ -1,3 +1,10 @@
+## [1.5.119](https://github.com/o2project/design-system/compare/v1.5.118...v1.5.119) (2026-11-21)
+
+### 📚 Some changes
+
+* **deps:** update dependency semantic-release to v26 ([160bea5](https://github.com/o2project/design-system/commit/160bea51547f955cce4d1aeca475203e2cce518c))
+* **deps:** update dependency typescript-eslint to v8.73.0 ([0f671f9](https://github.com/o2project/design-system/commit/0f671f900cb75c2178180adca0fd5c7fc0319a36))
+
 ## [1.5.118](https://github.com/o2project/design-system/compare/v1.5.117...v1.5.118) (2026-11-17)
 
 ### 📚 Some changes
