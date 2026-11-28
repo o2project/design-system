@@ -1,3 +1,9 @@
+## [1.5.123](https://github.com/o2project/design-system/compare/v1.5.122...v1.5.123) (2026-11-28)
+
+### 📚 Some changes
+
+* **deps:** update dependency @types/node to v26.6.7 ([#195](https://github.com/o2project/design-system/issues/195)) ([b66dfe2](https://github.com/o2project/design-system/commit/b66dfe2dfb4760c88afaf3fd72e8062155495761))
+
 ## [1.5.122](https://github.com/o2project/design-system/compare/v1.5.121...v1.5.122) (2026-11-27)
 
 ### 📚 Some changes
